@@ -8,7 +8,7 @@ let bool = 0;
 
 const errorMessage = (usrAnswer, rghtAnswer) => { // сообщение об ошибке
   bool = 1;
-  console.log(`'${usrAnswer}' is wrong answer ;(. Correct answer was ${rghtAnswer}'\nLet's try again, ${userName}!`);
+  console.log(`'${usrAnswer}' is wrong answer ;(. Correct answer was '${rghtAnswer}'\nLet's try again, ${userName}!`);
 };
 
 const answerCheck = (usrAnswer, rghtAnswer) => { // проверка ответа пользователя
