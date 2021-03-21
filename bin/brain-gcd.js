@@ -10,7 +10,7 @@ const greeting = () => { // приветствие
 };
 
 const userName = greeting(); // вызов функции приветствия
-console.log('What is the result of the expression?');
+console.log('Find the greatest common divisor of given numbers.');
 
 const errorMessage = (usrAnswer, rghtAnswer) => { // сообщение об ошибке
   bool = 1;
@@ -23,29 +23,27 @@ const answerCheck = (usrAnswer, rghtAnswer) => { // проверка ответ�
   } return errorMessage(usrAnswer, rghtAnswer);
 };
 
-const game = () => { //  функция игры
+const game = () => {
   const randomNumberOne = Math.floor(Math.random() * 100) + 1;
   const randomNumberTwo = Math.floor(Math.random() * 100) + 1;
 
-  const operators = ['+', '-', '*'];
-  const randomOperatorsIndex = Math.floor(Math.random() * 3);
-  const randomOperator = operators[randomOperatorsIndex];
+  let arr = [randomNumberOne, randomNumberTwo];
+  let size = arr.length;
 
-  let rightAnswer = 0;
-  switch (randomOperatorsIndex) {
-    case 0:
-      rightAnswer = randomNumberOne + randomNumberTwo;
-      break;
-    case 1:
-      rightAnswer = randomNumberOne - randomNumberTwo;
-      break;
-    case 2:
-      rightAnswer = randomNumberOne * randomNumberTwo;
-      break;
-    default:
-      break;
+  if (randomNumberOne < randomNumberTwo) {
+    arr = [randomNumberTwo, randomNumberOne];
   }
-  console.log(`Question: ${randomNumberOne} ${randomOperator} ${randomNumberTwo}`);
+
+  for (let i = 0; i < size; i += 1) {
+    const mod = (arr[i] % arr[i + 1]);
+    arr.push(mod);
+    size += 1;
+    if (mod === 0) {
+      break;
+    }
+  }
+  const rightAnswer = arr[size - 2];
+  console.log(`Question: ${randomNumberOne} ${randomNumberTwo}`);
   return rightAnswer;
 };
 
