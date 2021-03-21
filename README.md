@@ -5,4 +5,5 @@
 ![Action status](https://github.com/AlinaShatalova/frontend-project-lvl1/actions/workflows/superlinter.yml/badge.svg)
 
 Demo brain-even https://asciinema.org/a/URv66oQwPnipH8EnsrP6zEAUq
+Demo brain-calc https://asciinema.org/a/iWQt61cX4J8FEFqhUFII9PZhJ
 
