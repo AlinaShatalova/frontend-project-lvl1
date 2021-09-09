@@ -1,8 +1,5 @@
 #!/usr/bin/env node
-import gameEngine from '../src/index.js';
-import { playRound, gameQuestion } from '../src/games/brainCalcGame.js';
 
-playRound();
+import playGame from '../src/games/brainCalcGame.js';
 
-const func = () => gameEngine(playRound, gameQuestion);
-func();
+playGame();

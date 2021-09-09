@@ -1,6 +1,8 @@
-export const gameQuestion = () => console.log('Answer "yes" if the number is even, otherwise answer "no"');
+import gameEngine from '../index.js';
 
-export const playRound = () => {
+const gameDesc = 'Answer "yes" if the number is even, otherwise answer "no"';
+
+const playRound = () => {
   const randomNumber = Math.floor(Math.random() * 100) + 1;
   let rightAnswer = 'no';
   if (randomNumber % 2 === 0) {
@@ -9,3 +11,7 @@ export const playRound = () => {
   const question = `Question: ${randomNumber}`;
   return [question, rightAnswer];
 };
+
+const playGame = () => gameEngine(playRound, gameDesc);
+
+export default playGame;

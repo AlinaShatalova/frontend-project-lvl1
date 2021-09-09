@@ -1,6 +1,8 @@
-export const gameQuestion = () => console.log('Find the greatest common divisor of given numbers.');
+import gameEngine from '../index.js';
 
-export const playRound = () => {
+const gameDesc = 'Find the greatest common divisor of given numbers.';
+
+const playRound = () => {
   const randomNumberOne = Math.floor(Math.random() * 100) + 1;
   const randomNumberTwo = Math.floor(Math.random() * 100) + 1;
 
@@ -19,7 +21,12 @@ export const playRound = () => {
       break;
     }
   }
-  const rightAnswer = arr[size - 2];
+
+  const rightAnswer = String(arr[size - 2]);
   const question = `Question: ${randomNumberOne} ${randomNumberTwo}`;
   return [question, rightAnswer];
 };
+
+const playGame = () => gameEngine(playRound, gameDesc);
+
+export default playGame;
