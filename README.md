@@ -2,16 +2,16 @@
 Проект из 5 консольных игр, построенных по принципу популярных мобильных приложений на сообразительность. Каждая игра содержит три вопроса, на которые нужно дать верные ответы. В случае ошибки игра прекращается.
 
 Игры:
-* Калькулятор. Арифметические выражения, которые необходимо вычислить.
-  [![asciicast](https://asciinema.org/a/KMBxLOEGW6JP1Bl6En146SCWh.png)](https://asciinema.org/a/KMBxLOEGW6JP1Bl6En146SCWh)
-* Прогрессия. Поиск пропущенных чисел в последовательности чисел.
-  [![asciicast](https://asciinema.org/a/P7Zsw9ag9XR0HQOiJZHlAZNqP.png)](https://asciinema.org/a/P7Zsw9ag9XR0HQOiJZHlAZNqP)
-* Определение четного числа.
-  [![asciicast](https://asciinema.org/a/n7GegHYy7k8QDtBocXZuiIV58.png)](https://asciinema.org/a/n7GegHYy7k8QDtBocXZuiIV58)
-* Определение наибольшего общего делителя.
-  [![asciicast](https://asciinema.org/a/SnShaGTqe6PhnTgI2dyzDr1pO.png)](https://asciinema.org/a/SnShaGTqe6PhnTgI2dyzDr1pO)
-* Определение простого числа.
-  [![asciicast](https://asciinema.org/a/Nr4O7P624zBiRa6xbLtDA4KNo.png)](https://asciinema.org/a/Nr4O7P624zBiRa6xbLtDA4KNo)
+* Калькулятор. Арифметические выражения, которые необходимо вычислить.  
+[![asciicast](https://asciinema.org/a/KMBxLOEGW6JP1Bl6En146SCWh.svg)](https://asciinema.org/a/KMBxLOEGW6JP1Bl6En146SCWh)
+* Прогрессия. Поиск пропущенных чисел в последовательности чисел.  
+[![asciicast](https://asciinema.org/a/P7Zsw9ag9XR0HQOiJZHlAZNqP.svg)](https://asciinema.org/a/P7Zsw9ag9XR0HQOiJZHlAZNqP)
+* Определение четного числа.  
+[![asciicast](https://asciinema.org/a/n7GegHYy7k8QDtBocXZuiIV58.svg)](https://asciinema.org/a/n7GegHYy7k8QDtBocXZuiIV58)
+* Определение наибольшего общего делителя.  
+[![asciicast](https://asciinema.org/a/SnShaGTqe6PhnTgI2dyzDr1pO.svg)](https://asciinema.org/a/SnShaGTqe6PhnTgI2dyzDr1pO)
+* Определение простого числа.  
+[![asciicast](https://asciinema.org/a/Nr4O7P624zBiRa6xbLtDA4KNo.svg)](https://asciinema.org/a/Nr4O7P624zBiRa6xbLtDA4KNo)
 
 # Hexlet tests and linter status
 
